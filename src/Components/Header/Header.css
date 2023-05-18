@@ -1,0 +1,24 @@
+#header-title, #btn-container{
+    animation-duration: 1s;
+    animation-name: slidein;
+}
+
+h1 {
+  text-shadow:
+   -4px -0px 0 #302442,  
+    1px -1px 0 #302442,
+    -1px 1px 0 #302442,
+     1px 1px 0 #302442;
+}
+
+@keyframes slidein {
+    from {
+      margin-left: -100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }

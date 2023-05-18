@@ -1,0 +1,29 @@
+#card-dot {
+    width: 100px;
+    height: 10px;
+    transition: .5s;
+    
+}
+
+.card{
+    transition: .5s;
+    width: clamp(50%, 700px, 90%);
+}
+.card-img{
+    width: fit;
+}
+
+.card:hover{
+    scale: 1.1;
+}
+
+
+.card:hover > #card-dot {
+    width: 100%;
+    
+}
+
+
+
+
+
